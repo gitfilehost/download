@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FileShare - Secure File Hosting</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <h1>FileShare</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Upload</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Secure File Hosting & Sharing</h2>
+        <p>Fast, reliable, and encrypted file storage for all your needs</p>
+      </div>
+    </section>
+
+    <section class="file-details">
+      <div class="container">
+        <div class="file-card">
+          <div class="file-icon">
+            <i class="fas fa-file-archive"></i>
+          </div>
+          <div class="file-info">
+            <h3>fztoolswr.rar</h3>
+            <div class="file-meta">
+              <span><i class="fas fa-calendar"></i> Added: February 02, 2025</span>
+              <span><i class="fas fa-download"></i> Downloads: 1,482</span>
+              <span><i class="fas fa-hdd"></i> Size: 24.7 MB</span>
+            </div>
+            <div class="file-verification">
+              <div class="verification-item">
+                <i class="fas fa-shield-alt"></i>
+                <span>Malware scan: Clean</span>
+              </div>
+              <div class="verification-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Verified upload</span>
+              </div>
+              <div class="verification-item">
+                <i class="fas fa-fingerprint"></i>
+                <span>SHA-256: 8e4f21...</span>
+              </div>
+            </div>
+            <button id="download-btn" class="download-btn">
+              <i class="fas fa-download"></i> Download Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>Why Choose FileShare?</h2>
+        <div class="feature-grid">
+          <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure Storage</h3>
+            <p>All files are encrypted and protected against unauthorized access</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Downloads</h3>
+            <p>High-speed servers ensure quick downloads every time</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-lock"></i>
+            <h3>Privacy First</h3>
+            <p>We don't track your activity or share your information</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-history"></i>
+            <h3>Long-term Storage</h3>
+            <p>Files remain available for extended periods</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="download-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="thank-you-message">
+        <i class="fas fa-check-circle"></i>
+        <h3>Thank you for downloading!</h3>
+        <p>Your download should begin automatically. If not, <a href="#" id="direct-link">click here</a>.</p>
+        <div class="password-info">
+          <h4>Archive Information:</h4>
+          <p><strong>Password:</strong> <span>2025</span></p>
+          <button id="copy-password" class="copy-btn">
+            <i class="fas fa-copy"></i> Copy
+          </button>
+        </div>
+        <div class="additional-info">
+          <p>Please ensure you have a suitable archive extraction tool like WinRAR or 7-Zip installed.</p>
+          <p>Need help? <a href="#">Contact our support team</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>FileShare</h3>
+          <p>Safe and secure file hosting since 2018</p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Files</a></li>
+            <li><a href="#">Upload</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">DMCA</a></li>
+            <li><a href="#">Abuse Report</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Connect</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 FileShare. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
