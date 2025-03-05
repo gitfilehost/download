@@ -35,16 +35,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Copy password to clipboard
-  copyPasswordBtn.addEventListener('click', function() {
-    const password = '2025';
-    navigator.clipboard.writeText(password).then(function() {
-      copyPasswordBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
-      setTimeout(function() {
-        copyPasswordBtn.innerHTML = '<i class="fas fa-copy"></i> Copy';
-      }, 2000);
-    });
-  });
   
   // Direct download link
   directLink.addEventListener('click', function(e) {
