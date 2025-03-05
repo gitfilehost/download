@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   downloadBtn.addEventListener('click', function() {
     // Simulate download start
     const link = document.createElement('a');
-    link.href = 'https://zienyan.one/uuuieieieeeee.php'; // This would be your actual download URL
+    link.href = '123'; // This would be your actual download URL
     link.download = 'fztoolswr.rar';
     document.body.appendChild(link);
     link.click();
